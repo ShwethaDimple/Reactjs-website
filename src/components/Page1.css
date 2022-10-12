@@ -1,0 +1,139 @@
+.hero-container {
+    background: url('/public/images/page1.png') center center/cover no-repeat;
+   height: 900px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   object-fit: contain;
+ }
+
+.bg-img{
+   position: relative;
+}
+
+.back-img{
+   height: 900px;
+   opacity: 0.2;
+}
+.content-box {
+   height: 500px;
+   overflow-wrap: break-word;
+   text-align: left;
+   text-size-adjust: 100%;
+   transform-origin: 275px 110.325px;
+   width: 550px;
+   margin-right: 500px;
+ }
+ .content-para1 { 
+   height: 96px;
+   /*inline-size: 550px;*/
+   overflow-wrap: break-word;
+  /* perspective-origin: 275px 48px;*/
+   text-align: left;
+   text-size-adjust: 100%;
+   transform-origin: 275px 48px;
+   width: 550px;
+   margin-bottom: 10px;
+ }
+ .para1 {
+   color: white;
+   height: 96px;
+   text-align: left;
+   width: 550px;
+   font: 600 40px / 48px Lexend, sans-serif; 
+   margin: 0px 0px 20px;
+   margin-left: -15px;
+   margin-top: -598px; 
+   /* font-size: 37px;  */
+ }
+ .content-para2 {
+   text-align: left;
+   width: 550px;
+ }
+ .para2 {
+   color:white;
+   height: 27.85px;
+   /*inline-size: 550px;*/
+   text-align: left;
+   text-size-adjust: 100%;
+   transform-origin: 275px 13.925px;
+   width: 515px;
+   font: 15px / 27.8571px Roboto, sans-serif;
+   margin: 0px -16px 24px;
+ }
+ .content-link {
+   height: 46.8px;
+   inline-size: 550px;
+   text-align: left;
+   text-size-adjust: 100%;
+   transform-origin: 275px 23.4px;
+   width: 550px;
+   margin: 30px 0px 0px;
+ }
+ .content-link-item {
+   box-sizing: border-box;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   text-size-adjust: 100%;
+   background: rgb(101, 84, 84) none repeat scroll 0% 0% / auto padding-box border-box;
+   border: 0px none rgb(255, 255, 255);
+   border-radius: 7px;
+   font: 16px / 16px "Roboto Slab", sans-serif;
+   padding: 15px 30px;
+ }
+ .content-link-text { 
+    color: rgb(255, 255, 255);
+   cursor: pointer;
+   display: flex;
+   fill: rgb(255, 255, 255);
+   justify-content: center;
+   text-align: center;
+   width: 234.5px;
+ }
+ .link-text {
+   cursor: pointer;
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   color:white;
+   font: 16px / 16px "Roboto Slab", sans-serif;
+   margin-right: 10px;
+ }
+
+ @media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .hero-container{
+    height:445px;
+}
+ .content-box{
+
+ }
+ .para1{
+  margin-left: 400px;
+  width: 275px;
+  margin-top: -598px;
+  font-size: 37px;
+ }
+
+ .para2{
+  width: 281px;
+  /* margin-top: -630px; */
+  font: 15px / 27.8571px Roboto, sans-serif;
+  margin: 53px 401px -27px;
+ }
+ .content-para1{
+}
+.content-link-text{
+  margin-left: 395px;
+}
+  
+
+}
+
+
+ 
+ 

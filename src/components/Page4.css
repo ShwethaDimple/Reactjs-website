@@ -1,0 +1,175 @@
+.testi-box{
+    background-color: #F4F0EF;
+}
+.testi-heading h2{
+    text-align: center;
+    font-size: 30px;
+    width: 60%;
+    margin: 0px auto;
+    line-height: 28px;
+    font-weight: 400;
+    /* margin-top: -500px; */
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.testi-text{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.stars{
+    color:#f0ad4e;
+}
+
+.client1 h6{
+    margin-bottom: 30px;
+    line-height: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.client-social1{
+    display: flex;
+    flex-direction: row;
+}
+.client1-img{
+    width: 80px;
+    height: 80px;
+    border: 50%;
+    border-radius: 50px; 
+    object-fit: cover;
+    
+}
+.client-name{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.client2 h6{
+    margin-bottom: 30px;
+    line-height: 30px;
+    padding-right: 100px;
+    padding-top: 22px;
+}
+.client-social2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.client2-img{
+    width: 80px;
+    height: 80px;
+    /* border-radius: 90%; */
+     border-radius: 50px; 
+    object-fit: cover;
+    /* margin-top: -6px; */
+    margin-top: -30px;
+}
+.client2-name{
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top:-26px;
+}
+.testi-images{
+    background-color:#F8F8F8;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+.first-img{
+    align-items: center;
+    margin-left: 25px; 
+    background-color:#f9f9f9;
+    margin-top: 65px;
+    /* margin-right: 80px; */
+}
+.second-img{
+    align-items: center;
+    background-color:#f9f9f9;
+    margin-top: 65px;
+}
+.third-img{
+    align-items: center;
+    background-color:#f9f9f9;
+    margin-top: 65px;
+}
+.fourth-img{
+    align-items: center;
+    background-color:#f9f9f9;
+    margin-top: 65px;
+}
+.social-media{
+   padding-top: 50px;
+   height: 200px;
+}
+.social-media-text h6{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.social-media-icons{
+    /* display: flex;
+    flex-direction: row; */
+    width: 90px;
+    overflow: auto; /* Overflow due to float */
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 100px;
+}
+.social-media-icons a{
+    float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  color: white; /* White text color */
+  font-size: 20px; /* Increased font size */
+  border: 1px solid #655454;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #655454;
+  border-radius: 10%;
+}
+
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+.clients{
+    margin-top: -67px;
+}
+.stars{
+    margin-left: 8px;
+}
+.client1 h6{
+    margin-right: -80px;
+}
+.client2 h6{
+    margin-right: -80px;
+}
+.social-media-text h6{
+    margin-top: 567px;
+    margin-left:80px;
+}
+.testi-images{
+    margin-left: 0px;
+}
+.first-img{
+    margin-left: -28px;
+}
+.second-img{
+    margin-left: -25px;
+}
+
+}
+

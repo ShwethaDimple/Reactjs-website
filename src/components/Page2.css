@@ -1,0 +1,248 @@
+.page2-left img{
+    align-content: center;
+    align-items: center;
+    position: relative;
+    width: 45%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    left: 12%;
+}
+.page-right{
+    box-shadow: 0px 20px 50px -20px rgb(0 0 0 / 50%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* margin: -100px 0px 0px 0px;
+    padding: 100px 100px 100px 100px; */
+    margin-left:20PX;
+    /* text-align: right; */
+}
+.head1{
+    box-sizing: border-box;
+    height: 38.9844px;
+    block-size: 38.9844px;
+    box-sizing: border-box;
+    clear: both;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 19.4922px;
+    width: 370px;
+    font: 30px / 39px Lexend, sans-serif;
+    margin: 0px;
+}
+.head2{
+    block-size: 57.6172px;
+    box-sizing: border-box;
+    height: 57.6172px;
+    text-align: left;
+    text-decoration: none solid rgb(84, 89, 95);
+    text-size-adjust: 100%;
+    transform-origin: 185px 28.8086px;
+    width: 370px;
+    border: 0px none rgb(84, 89, 95);
+    font: 600 18px / 28.8px Roboto, sans-serif;
+    margin: 20px 0px 0px; 
+}
+.page2-right{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 50px -20px;
+    margin-left: 1000px;
+    margin-top:-500px;
+    position:relative;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 300px;
+    padding-top: 170px;
+}
+.head1{
+    text-align: center;
+}
+.head2{
+    text-align: center;
+}
+#down-img {
+    align-content: center;
+    align-items: center;
+    background-position: 100% 0%; 
+    bottom: 0px;
+    /* box-sizing: border-box; */
+    color: rgb(75, 79, 88);
+    display: flex;
+    height: 554.05px;
+    /* left: 0px; */
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    transform-origin: 285px 277.025px;
+    width: 570px;
+    /* background: rgba(0, 0, 0, 0) url("/public/images/page2.webp") no-repeat scroll 100% 0% / cover padding-box border-box; */
+    background-image: url("/public/images/page2.webp");
+    border: 0px none rgb(75, 79, 88);
+    flex-flow: row wrap;
+    margin-left: 200px;
+}
+.down-box {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: flex;
+    height: 554.05px;
+    left: 0px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    transform-origin: 285px 277.025px;
+    width: 570px;
+}
+
+ .down-boxshadow {
+    align-content: center;
+    align-items: center;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 50px -20px;
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: flex;
+    height: 654.05px;
+    left: 0px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 500px;
+    background: rgb(249, 249, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 7px;
+    flex-flow: row wrap;
+    margin: -100px 0px 0px;
+    padding: 68px;
+    margin-left: 770px;
+    margin-top: -650px;
+} 
+    .down-box-content {
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    height: 454.05px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 227.025px;
+    width: 370px;
+}
+.down-title {
+    box-sizing: border-box;
+    height: 39px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 19.5px;
+    width: 370px;
+    font: 30px / 39px Lexend, sans-serif;
+     margin: 0px; 
+}
+.down-heading {
+    box-sizing: border-box;
+    height: 57.6px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 28.8px;
+    width: 370px;
+    font: 600 18px / 28.8px Roboto, sans-serif;
+    margin: 20px 0px 0px;
+}
+.down-content {
+    box-sizing: border-box;
+    column-rule-color: rgb(75, 79, 88);
+    height: 317.45px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 158.725px;
+    width: 370px;
+}
+.down-content-para {
+    box-sizing: border-box;
+    height: 250.65px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 125.325px;
+    width: 370px;
+    font: 15px / 27.8571px Roboto, sans-serif;
+    margin: 20px 0px 0px;
+}
+.down-content-links {
+    box-sizing: border-box;
+    height: 46.8px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    transform-origin: 185px 23.4px;
+    width: 370px;
+    margin: 20px 0px 0px;
+}
+.down-content-linkitem{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    background: rgb(101, 84, 84) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 7px;
+    font: 16px / 16px "Roboto Slab", sans-serif;
+    padding: 15px 30px;
+}
+.down-content-linktext{
+    color: rgb(255, 255, 255);
+   cursor: pointer;
+   display: flex;
+   fill: rgb(255, 255, 255);
+   justify-content: center;
+   text-align: center;
+   width: 234.5px;
+}
+.down-content-linktextitem{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font: 16px / 16px "Roboto Slab", sans-serif;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+    .down-box{
+    display:inline-block;
+  }
+  #down-img{
+    display:none;
+  }
+  .down-boxshadow{
+    align-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width:296px;
+  }
+  .down-heading{
+    margin-left: -47px;
+    width:288px;
+  }
+  .down-content-para{
+    text-align: left;
+    width:222px;
+    margin: 19px -46px 0px
+  }
+  .down-title{
+    margin-left: -43px;
+  }
+}

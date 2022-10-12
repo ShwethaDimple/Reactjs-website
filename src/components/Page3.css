@@ -1,0 +1,247 @@
+.services-box{
+    background-color: #F4F0EF;
+    margin-top: -550px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.title h2{
+    text-align: center;
+    font-size: 30px;
+    width: 60%;
+    margin: 0px auto;
+    line-height: 28px;
+    font-weight: 400;
+    /* margin-top: -500px; */
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.service-text{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+.first{
+    margin-bottom: 50px;
+    /* display: inline-block; */
+    /* display:flex; */
+}
+.first i{
+ font-size: 50px;
+}
+.second{
+    margin-bottom: 50px;
+    /* display: inline-block; */
+    /* display:flex; */
+}
+.second i{
+    font-size: 50px;
+}
+.third i{
+    font-size: 50px;
+}
+/* .third {
+    /* display: inline-block; */
+    /* display:flex; 
+} */
+
+.icon-one{
+    margin-left: 153px;
+    /* width: 400px;
+    height:200px; */
+}
+.icon-two{
+    margin-left: 146px;
+}
+.icon-three{
+    margin-left: 146px;
+}
+.service-btn{
+    margin-left: 123px;
+    background-color: white;
+}
+.service-btn a{
+    text-decoration: none;
+    color: black;
+}
+.service-btn:hover{
+    background-color: #F4F0EF;
+}
+.first h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+.first p{
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0px 0 10px 0;
+    letter-spacing: 1px;
+}
+.second h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+.second p{
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0px 0 10px 0;
+    letter-spacing: 1px;
+}
+.third h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+.third p{
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0px 0 10px 0;
+    letter-spacing: 1px;
+}
+.service-down-img{
+    background: rgba(0, 0, 0, 0) url("/public/images/philip-strong-iOBTE2xsYko-unsplash.jpg.webp") no-repeat scroll 100% 0% / cover padding-box border-box;
+    height: 800px;
+    background-attachment: fixed;
+}
+.left-card{
+    width: 550px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.card-body{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.big-title{
+      margin-left: -20px;
+}
+.right-card{
+    width: 550px;
+    margin-left: 680px;
+    margin-top: -650px;
+}
+.contact-us-contain{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.start h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.middle p{
+    text-align: center;
+}
+.end {
+    text-align: center;
+}
+.contact-btn{
+    background-color: #655454;
+    margin-top: 50px;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: white;
+}
+.contact-btn:hover{
+    background-color: #655454;
+}
+.contact-btn a:hover{
+    color: yellow;
+}
+
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* .first{
+        display:inline-block;
+    } */
+    .middle p{
+      margin-top: 20px; 
+    }
+    .icon-one{
+        margin-left: 108px;
+    }
+    .first h5{
+        margin-left: 22px;
+    }
+    .service-btn{
+        margin-left: 80px;
+    }
+    .icon-two{
+        margin-left: 106px;
+    }
+    .second h5{
+        margin-left: 22px;
+    }
+    .icon-three{
+        margin-left: 106px;
+    }
+    .third h5{
+        margin-left: 22px;
+    }
+    .first{
+        margin-top: 10px;   
+    }
+    .second{
+        margin-top: 40px;
+    }
+    .third{
+        margin-top: 40px;
+    }
+    .middle p{
+        margin-top: 15px;
+    }
+    .contact-btn{
+        margin-top: 10px;
+    }
+    .services-box{
+        margin-top: 150px;
+        margin-left: 17px;
+        width: 288px;
+    }
+    .title h2{
+        font-size: 29px;
+    }
+    .card-body{
+        padding-left: 46px !important;
+        padding-right: 40px !important;
+    }
+    .left-card{
+        width:290px !important;
+        margin-left: 26px !important;
+        margin-top: -50px !important;
+    }
+    .right-card {
+        width: 291px;
+        margin-left: 28px;
+        margin-top: 12px;
+    }
+    .contact-us-contain {
+        padding-top: 1145px;
+    }
+    .start h5{
+        width:280px;
+    }
+    .p{
+        margin-top:14px;
+    }
+}
